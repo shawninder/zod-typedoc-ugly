@@ -1,0 +1,19 @@
+{
+  "name": "zod-typedoc-ugly",
+  "version": "1.0.0",
+  "description": "Reproducing an issue I'm having with Zod types in Typedoc docs",
+  "main": "index.js",
+  "scripts": {
+    "build:lib": "tsc",
+    "build:docs": "typedoc",
+    "build": "npm run build:lib && npm run build:docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "typedoc": "^0.23.26"
+  }
+}
